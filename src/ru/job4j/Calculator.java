@@ -9,7 +9,7 @@ public class Calculator {
         int six = 6;
         int four = 4;
         int five = 5;
-        int sixDivTwo = six/two;
+        int sixDivTwo = six / two;
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
         System.out.println("sixDivTwo: " + sixDivTwo);
@@ -17,12 +17,8 @@ public class Calculator {
         System.out.println("fourTimeTwo: " + fourTimeTwo);
         int size = 100;
 
-        //size = 100;
-
-        size =size-5;
+        size = size - 5;
         System.out.println(size);
-
-
-
     }
+
 }
