@@ -6,7 +6,7 @@ public class Point {
         double first = Math.pow(lengthX, 2);
         double lengthY = y2 - y1;
         double second = Math.pow(lengthY, 2);
-        double rsl = Math.abs(first + second);
+        double rsl = Math.sqrt(first + second);
         return rsl;
     }
 
